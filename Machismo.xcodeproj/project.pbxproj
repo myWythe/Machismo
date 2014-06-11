@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341258B61947E13C004E996A /* PlayingCardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341258B51947E13C004E996A /* PlayingCardGameViewController.m */; };
 		343ED3681941CCE80027724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343ED3671941CCE80027724E /* Foundation.framework */; };
 		343ED36A1941CCE80027724E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343ED3691941CCE80027724E /* CoreGraphics.framework */; };
 		343ED36C1941CCE80027724E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343ED36B1941CCE80027724E /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341258B41947E13C004E996A /* PlayingCardGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardGameViewController.h; path = ../PlayingCardGameViewController.h; sourceTree = "<group>"; };
+		341258B51947E13C004E996A /* PlayingCardGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardGameViewController.m; path = ../PlayingCardGameViewController.m; sourceTree = "<group>"; };
 		343ED3641941CCE80027724E /* Machismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Machismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343ED3671941CCE80027724E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		343ED3691941CCE80027724E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				343ED3791941CCE90027724E /* Main.storyboard */,
+				341258B41947E13C004E996A /* PlayingCardGameViewController.h */,
+				341258B51947E13C004E996A /* PlayingCardGameViewController.m */,
 				343ED37C1941CCE90027724E /* CardGameViewController.h */,
 				343ED37D1941CCE90027724E /* CardGameViewController.m */,
 				343ED37F1941CCE90027724E /* Images.xcassets */,
@@ -292,6 +297,7 @@
 				343ED3A81941ECE30027724E /* PlayingCardDeck.m in Sources */,
 				343ED3741941CCE90027724E /* main.m in Sources */,
 				343ED39E1941DE480027724E /* Card.m in Sources */,
+				341258B61947E13C004E996A /* PlayingCardGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
